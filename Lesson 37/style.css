@@ -1,0 +1,30 @@
+.input_btn{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.input_btn1{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.input_btn:hover{
+    background-color: pink;
+}
+.input_btn1:hover{
+    background-color: pink;
+}
+.input_btn:hover .input_ok{
+    background-color: rgb(126, 126, 190);
+}
+.model{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}

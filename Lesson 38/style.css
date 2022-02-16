@@ -1,0 +1,29 @@
+.input{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.input:hover{
+    background-color: aqua;
+} 
+.wrapper{
+    height: 500px;
+    width: 500px;
+    border: solid 1px red;
+}
+.block{
+    background-color: black;
+}
+.button{
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: aqua;
+}
+.wrapper{
+    list-style-type: none;
+}
