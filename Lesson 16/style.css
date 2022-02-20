@@ -1,0 +1,17 @@
+.capitan{
+    width: 450px;
+    height: 200px;
+    background-image: linear-gradient(#4568DC, #B06AB3);
+    margin: 60px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.text{
+    
+}
+.img_captain{
+    height: 300px;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,139 @@
+.top{
+    display: flex;
+ height: 300px;
+ padding: 40px;
+}
+.first{
+    padding: 20px;
+}
+.second{
+    padding: 20px;
+}
+.text{
+    font-size: 50px;
+    color: blanchedalmond;
+    padding: 20px;
+}
+.title1{
+    background-image: url("/img/background-image.jpg");
+ 
+    height: 300px;
+}
+.cell{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    animation: move1 3s infinite alternate;
+}
+.line:hover{
+    width: 1750px;
+   
+}
+@keyframes move1{
+    50%
+{
+    transform: skew(30deg);
+}
+100%{
+    transform: skew(-30deg);
+}
+}
+.squere{
+background-color: black;
+width: 1750px;
+height: 300px;
+padding: 40px;
+border-radius: 20px;
+display: flex;
+justify-content: space-around;
+}
+.body{
+    background-color: grey;
+}
+.paragraph{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+}
+.list{
+    list-style: none;
+}
+.text{
+    color: honeydew;
+    font-size: 20px;
+    padding: 20px;
+}
+.line{
+    background-color: black;
+    width: 600px;
+    border-radius: 20px;
+    transition: 3s;
+   
+}
+/* @keyframes move{
+    100%{
+        width: 1750px;
+    }
+} */
+/* .image{
+    width: 600px;
+    height: 700px;
+    object-fit: cover;
+    object-position: -300px 0;
+    border: 1px solid black;
+}
+.background{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    /* background-image: url("/img/background-image.jpg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-image: url("/img/background-image.jpg");
+    background: cover center
+}  */
+/* .tube{
+height: 200px;
+width: 100%;
+border: 1px solid black;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  font-size: 50px;
+    /* background-image:url("/img/background-image.jpg"); */
+/* background: cover;
+background-position: center; */
+/* animation: move 5s infinite alternate;
+}
+@keyframes move{
+    50%{
+        margin-left: 800px;
+        font-size: 100px;
+        color: red; */
+       /* height: 200px;
+       width: 200px; */
+    /* }
+    100%{
+        margin-left: 1650px;
+        font-size: 30px;
+        color: blue;
+    }
+}  */
+/* .translate{
+    height: 100px;
+width: 300px;
+border: 1px solid black;
+margin: 200px; */
+/* transform: scale(0.1); */
+/* animation: move 5s infinite;
+}
+@keyframes move{
+100%{
+    transform: rotate(360deg);
+}
+} */

@@ -1,0 +1,722 @@
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 100px;
+    margin:0 auto;
+}
+.header_inner{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+.logo_header{
+    margin: 15px;
+    margin-left: 100px;
+    padding-right: 30px;
+}
+.icon_header{
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.language_header{
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.money_header{
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+.language_header::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+.money_header::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.icon_header::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+}
+.number_header::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.info_header{
+    display: flex;
+    align-items: center;
+}
+.number_header{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.button_first_header{
+   display: flex;
+   align-items: center;
+   margin-right: 30px;
+}
+.icon_button_first_header{
+    background-color: red;
+    padding: 16px;
+}
+.button_header{
+    display: flex;
+    margin-left: 30px;
+    position: relative;
+}
+.button_header::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40px;
+    background-color: grey;
+    position: absolute;
+    top: 8px;
+    left: -30px;
+}
+.icon_button_second_header{
+    background-color: rgb(149, 192, 149);
+    padding: 17px;
+}
+.button_second_header{
+    display: flex;
+    align-items: center;
+}
+.link_button_header{
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgba(241, 239, 239, 0.699);
+    color: black;
+}
+.text_number_header{
+    padding-right: 20px;
+}
+.RU{
+    background-color: rgb(150, 189, 150);
+}
+.menu_main{
+    height: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_main > div{
+    text-align: center;
+}
+.column_menu_main{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.column_hotel_menu_main{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.column_hotel_menu_main::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: rgb(173, 8, 8);
+    position: absolute;
+    top: 43px;
+    left: -10px;
+}
+.img_icon_menu_main{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+.text_menu_main{
+    color: grey;
+}
+.billboard{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%), url(img/fon.png);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link_price_billboard{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.price_billboard{
+    border: 1px solid white;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.text_billboard{
+    font-size: 100px;
+    color: white;
+    width: 1100px;
+    position: relative;
+    top: 30px;
+    left: 75px;
+}
+.link_button_billboard{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.button_billboard{
+    border: 1px solid rgba(220, 220, 220, 0.623);
+    background-color: rgba(220, 220, 220, 0.623);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 150px;
+}
+.info_main{
+    height: 350px;
+    background-color: rgba(233, 230, 230, 0.801);
+    padding: 0px 70px 20px 70px;
+    display: flex;
+}
+.left_info_main{
+    width: 60%;
+}
+.sentence_left_info_main{
+    font-size: 40px;
+}
+.button_left_info_main{
+    display: flex;
+    margin-top: 50px;
+}
+.first_button_left_info_main{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-right: 20px;
+}
+.second_button_left_info_main{
+    text-decoration: none;
+    color: grey;
+    padding: 20px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid grey;
+}
+.row{
+    display: flex;
+    margin-bottom: 55px;
+}
+.img_row{
+    padding: 10px;
+    border: 1px grey dashed;
+    border-radius: 50%;
+}
+.second_info_main{
+    padding-top: 40px;
+}
+.text_row{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: grey;
+}
+.text_logo_hotel{
+    font-size: 40px;
+}
+.logo_hotel{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.left_logo_hotel{
+    padding: 20px 15px 20px 15px;
+    border: 1px grey solid;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.right_logo_hotel{
+    padding: 20px 15px 20px 15px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.link_button_logo_hotel{
+    text-decoration: none;
+    color: grey;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid grey;
+}
+.button_logo_hotel{
+    margin-top: 40px;
+    position: relative;
+}
+.button_logo_hotel::before{
+    content: "";
+    display: block;
+    width: 180px;
+    height: 3px;
+    background-color: rgb(194, 191, 191);
+    position: absolute;
+    left: -240px;
+    top: 10px;
+}
+.first_card_hotel{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/photo_hotel1.png);
+    height: 450px;
+    width: 460px;
+    position: relative;
+}
+.top_card_hotel{
+    position: absolute;
+    background-color: rgba(148, 39, 39, 0.281);
+    color: white;
+    top: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+.star_card_hotel{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+.text_card_hotel{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    width: 250px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.card_hotel{
+    display: flex;
+    justify-content: space-between;
+}
+.second_card_hotel{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/photo_hotel2.png);
+    height: 450px;
+    width: 460px;
+    position: relative;
+}
+.third_card_hotel{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(img/photo_hotel3.png);
+    height: 450px;
+    width: 460px;
+    position: relative;
+}
+.actual{
+    margin-top: 80px;
+}
+.logo_actual{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin:0 auto;
+    position: relative;
+}
+.text_logo_actual{
+    font-size: 40px;
+    margin:0 auto;
+    position: absolute;
+    left: 30px;
+    margin-left: 100px;
+}
+.button_logo_actual{
+    margin:0 auto;
+    position: absolute;
+    right: 30px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-right: 100px;
+}
+.link_logo_actual{
+    text-decoration: none;
+    color: grey;
+}
+.button_logo_actual::before{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 2px;
+    background-color: grey;
+    position: absolute;
+    right: 130px;
+    top: 15px;
+}
+.cards_actual{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.first_top_card_actual{
+    background-image: url(img/actual1.png);
+    height: 250px;
+    width: 350px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.second_top_card_actual{
+    background-image: url(img/actual2.png);
+    height: 250px;
+    width: 350px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.third_top_card_actual{
+    background-image: url(img/actual3.png);
+    height: 250px;
+    width: 350px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.card_actual{
+height: 480px;
+width: 350px;
+position: relative;
+background-color:rgba(128, 128, 128, 0.123);
+}
+.top_card_actual{
+    position: absolute;
+    background-color: rgba(32, 8, 8, 0.281);
+    color: white;
+    top: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+.midd_card_actual{
+   margin: 15px;
+   border-bottom: 1px solid rgb(219, 219, 219);
+}
+.down_card_actual{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.only{
+    margin-top: 65px;
+}
+.paragraph_midd_card_actual{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.text_midd_card_actual{
+    color: rgb(168, 167, 167);
+}
+.price_down_card_actual{
+    color: red;
+}
+.price2_actual{
+    font-size: 25px;
+}
+.text_down_card_actual{
+    color: rgb(204, 203, 203);
+    margin: 0 auto;
+}
+.strict1_actual{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    left: 375px;
+    top: 2170px;
+}
+.strict2_actual{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 375px;
+    top: 2170px;
+}
+.button_actual{
+    margin-top: 50px;
+    background-color:rgb(248, 247, 247);
+    height: 110px;
+    margin-left: 130px;
+    margin-right: 130px;
+    border-top: 10px solid grey;
+    display: flex;
+    padding: 30px;
+}
+.top_column_buttom_actual{
+    display: flex;
+}
+.img_top_column_button_actual{
+    height: 20px;
+}
+.text_top_column_button_actual{
+    color: rgb(187, 184, 184);
+    font-size: 20px;
+    margin-left: 7px;
+}
+.input_down_column_button_actual{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+}
+.down_column_button_actual{
+    margin-top: 20px;
+    display: flex;
+}
+.select_down_column_button_actual{
+    height: 47px;
+    color: gray;
+    width: 220px;
+    padding: 10px;
+}
+.select_down_column_button_actual1{
+    height: 47px;
+    color: gray;
+    width: 130px;
+    padding: 10px;
+}
+.select_down_column_button_actual2{
+    height: 47px;
+    color: gray;
+    width: 130px;
+    padding: 10px;
+}
+.link_button_actual{
+    background-color: tomato;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 90px;
+    margin-top: 43px;
+    margin-left: 30px;
+}
+.link1_button_actual{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.red_banner{
+    background-color: rgb(201, 56, 56);
+    margin-top: 30px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 170px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 200px 100px 200px;
+}
+.img_red_banner{
+    position: absolute;
+    margin:0 auto;
+    right: 60px;
+    width: 450px;
+    top: -60px;
+}
+.text_red_banner{
+    display: flex;
+    justify-content: space-between;
+}
+.big_text_red_banner{
+    color: white;
+    font-size: 30px;
+}
+.small_text_red_banner{
+    color: white;
+    width: 360px;
+    font-size: 18px;
+}
+.form_red_banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.label_red_banner{
+    background-color: rgb(250, 115, 91);
+    height: 50px;
+    width: 410px;
+    font-size: 25px;
+    background-color: rgb(207, 136, 123);
+    height: 50px;
+    width: 410px;
+    font-size: 25px;
+}
+.radio_red_banner{
+    color: white;
+    font-size: 20px;
+}
+.radio{
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
+}
+.link_red_banner{
+    text-decoration: none;
+    color: rgb(201, 56, 56);
+    font-size: 25px;
+}
+.button_red_banner{
+    background-color: white;
+    width: 107px;
+    height: 30px;
+    padding: 10px 63px 10px 63px;
+} 
+
+.footer_inner{
+    background-color: rgb(236, 234, 234);
+    margin:0 auto;
+}
+.icon_banner{
+    background-image: url(img/fon_icon_banner.png);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.text_icon_banner{
+    font-size: 65px;
+    color: white;
+    width: 682px;
+    padding: 100px 379px 0px 379px;
+    text-align: center;
+}
+.white_banner{
+    margin: 130px;
+    background-color: white;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    width: 500px;
+    padding-right: 30px;
+}
+.column1{
+    width: 500px;
+}
+.row_white_banner{
+    display: flex;
+    margin-bottom: 50px;
+}
+.img_icon{
+    padding: 10px;
+    border: 1px grey dashed;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+}
+.img_icon:hover{
+    padding: 10px;
+    border: 1px red dashed;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+}
+.text_row_white_banner{
+    margin-left: 30px;
+    width: 415px;
+    font-size: 20px;
+}
+.text2_row{
+    font-weight: bolder;
+}
+.row_white_banner1{
+    display: flex;
+    margin-bottom: 75px;
+}
+.icon_row_white_banner::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: grey;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+.icon_row_white_banner{
+    position: relative;
+}
+.img_column_footer{
+    margin-right: 70px;
+}
+.footer{
+    background-image: url(img/fon_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    padding: 130px;
+}
+.top_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.down_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+}
+.down_footer::before{
+    content: "";
+    display: block;
+    width: 1200px;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.text_down_footer{
+    color: gray;
+}
+.icon_down_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.img_down_footer{
+    height: 20px;
+    margin-left: 10px;
+}

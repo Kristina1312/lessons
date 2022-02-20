@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(204, 201, 201);
+}
+.header_inner{
+    text-align: center;
+}
+.container{
+    max-width: 1170px;
+    margin:0 auto;
+    width: 100%;
+}
+.sprint1{
+    background-color: rgb(167, 204, 167);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sprint2{
+    background-color: rgb(167, 200, 204);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sprint3{
+    background-color: rgb(204, 167, 201);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sprint4{
+    background-color: rgb(204, 167, 170);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.lesson{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 300px;
+    box-shadow: 14px 12px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.icon{
+    padding-right: 15px;
+}
+.paragraph{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.label{
+    color: grey;
+}
+.link{
+    border:blue 1px solid;
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    text-align: center;
+}

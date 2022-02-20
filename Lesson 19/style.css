@@ -1,0 +1,20 @@
+.uk-label{
+    position: absolute;
+    left: 220px;
+    background-color: white;
+    color: grey;
+}
+.uk-card-title{
+    position: relative;
+}
+.img{
+    border: 1px solid grey;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+img:hover{
+    transition: 0.1s;
+    height: 35px;
+    width: 35px;
+}

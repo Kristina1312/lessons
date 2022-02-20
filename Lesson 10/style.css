@@ -1,0 +1,245 @@
+.container{
+    width: 1170px;
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height: 100hr;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.logo{
+font-size: 40px;
+}
+.icon_logo{
+    color: yellowgreen;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.cell{
+margin-left: 10px;
+margin-right: 10px;
+}
+.cell:hover{
+transition: 0.5s;
+color: black;
+font-size: 20px;
+}
+.menu_cell{
+    text-decoration: none;
+    color: gray;
+}
+.button{
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+  padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+background-color: greenyellow;
+}
+.login{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.login:hover{
+    transition: 0.1s;
+    font-size: 18px;
+    color: rgba(182, 180, 180, 0.774);
+}
+.down{
+   background-image: url("background.png");
+padding-top: 100px;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 400px;
+}
+.paragraph{
+
+}
+.text{
+    color: rgb(94, 93, 93);
+    font-size: 25px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.button_big{
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    margin: 20px 490px 0px 490px;
+width: 170px;
+height: 30px;
+padding: 10px;
+}
+.button_big:hover{
+    transition: 0.5s;
+    color: ivory;
+    font-size: 30px;
+}
+.icon_arrows{
+    color: white;
+    font-size: 40px;
+    padding: 100px;
+    display: flex;
+    justify-content: end;
+  
+}
+.main_inner{
+    padding: 40px;
+}
+.first{
+    text-align: center;
+}
+.icon{
+    font-size: 40px;
+    color: yellowgreen;
+}
+.sentence{
+    font-size: 30px;
+}
+.title{
+    color: grey;
+    margin: 30px;
+}
+.part_one{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.icon_green{
+    color: yellowgreen;
+    font-size: 25px;
+}
+.icon_grey{
+    font-size: 25px;
+}
+.text_column{
+    padding-left: 20px;
+    font-size: 25px;
+}
+.part_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.icon_glasses{
+    color: blue;
+    font-size: 100px;
+    margin-right: 30px;
+}
+.text1{
+color: grey;
+font-size: 20px;
+}
+.sentence1{
+    color: yellowgreen;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+.column_blue{
+    background-color: rgb(195, 195, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.icon_sofa{
+    margin-left: 20px;
+    font-size: 50px;
+}
+.title_blue{
+    padding: 20px;
+}
+.phrase_blue{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.text_blue{
+    color: grey;
+    padding-bottom: 15px;
+}
+.button_blue{
+    border-radius: 1px solid blue;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+}
+.link_blue:hover{
+    transition: 0.1s;
+    font-size: 18px;
+}
+.link_blue{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.column_green{
+    background-color: rgba(199, 238, 122, 0.719);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.icon_card{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.title_green{
+    padding: 20px;
+}
+.phrase_green{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.text_green{
+    color: grey;
+    padding-bottom: 15px;
+}
+.button_green{
+    color: white;
+    border-radius: 1px solid greenyellow;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: greenyellow;
+    width: 150px;
+    text-align: center;
+}
+.link_green{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.link_green:hover{
+    transition: 0.1s;
+    font-size: 18px;
+}
+.logos{
+font-size: 30px;
+text-align: center;
+padding: 20px;
+}
+.end{
+color: grey;
+font-size: 15px;
+padding: 20px;
+text-align: center;
+}

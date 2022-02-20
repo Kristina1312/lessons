@@ -1,0 +1,142 @@
+/* .arrow{
+    font-size: 400px;
+    color: purple;
+    background-color: black;
+} */
+.sentences{
+    margin: 60px;
+}
+.container{
+    width: 1170px;
+    margin:0 auto;
+ 
+}
+.header{
+    background-image: url("img/fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+color: white;
+font-family: 'Montserrat', sans-serif;
+padding: 20px;
+}
+.cell{
+    list-style-type: none;
+    color: black;
+    padding: 10px;
+}
+.down{
+    padding: 100px;
+    text-align: center;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.button{
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+    margin: 80px;
+}
+.sentences{
+    color: rgba(179, 162, 162, 0.76);
+}
+.menu_inner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cell:hover{
+    transition: 3s;
+    color: white;
+}
+.button:hover{
+transition: 3s;
+color: rgba(121, 104, 73, 0.733);
+border: rgba(121, 104, 73, 0.733) 1px solid;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.main_inner{
+text-align: center;
+}
+.down_main{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+.first{
+text-align: center;
+padding: 20px;
+}
+.second{
+    text-align: center;
+    padding: 20px;
+}
+.third{
+    text-align: center;
+    padding: 20px;
+}
+.icon{
+    font-size: 40px;
+padding: 10px;
+border-radius: 50%;
+border: grey solid;
+}
+.name{
+    padding: 10px;
+}
+.icon:hover{
+    transition: .1s;
+    color: white;
+    border: black solid;
+background-color: orange;
+}
+.list_end{
+width: 500px;
+margin:0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.end{
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: solid black 1px;
+border: 50%;
+margin-top: 20px;
+}
+.footer{
+    background-color: orangered;
+    height: 200px;
+}
+.end_text{
+    text-align: center;
+    padding: 20px;
+}
+.text2{
+    margin-top: 40px;
+}
+@media (max-width:1170px){
+    .container{
+        width: 100%;
+        max-width: 980px;
+    }
+    .down_main{
+        justify-content: space-around;
+    }
+}
+@media (max-width: 980px){
+    .container{
+        width: 100%;
+    } 
+}
