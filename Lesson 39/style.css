@@ -1,0 +1,62 @@
+.block{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(62, 63, 63);
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.num{
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
+.wrapper{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgba(104, 101, 101, 0.514);
+}
+.body{
+    display: flex;
+    margin-top: 20px;
+}
+.input{
+    margin-right: 20px;
+    height: 30px;
+    width: 250px;
+}
+.button{
+    margin-right: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+.button2{
+    margin-right: 20px;
+    height: 35px;
+    width: 150px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+body{
+    margin: 30px;
+    background-color: rgba(216, 215, 215, 0.548);
+}
+.button1 {
+    height: 35px;
+    width: 150px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
