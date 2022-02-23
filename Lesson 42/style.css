@@ -1,0 +1,9 @@
+.card{
+    margin-top: 10px;
+    border: 1px solid black; 
+    padding: 10px;
+}
+.edit{
+    font-size: 25px;
+    padding: 5px;
+}
